@@ -82,9 +82,9 @@
 
 
 ;; output 
-(run-until 30
+(run-until 3000
            (at-beginning output-epsilon)
-           (to-appended "ez" (at-every 10 output-efield-z))
+           (to-appended "ez" (at-every 100 output-efield-z))
            )
 
 
