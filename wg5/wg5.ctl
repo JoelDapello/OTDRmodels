@@ -84,8 +84,7 @@
 ;; output 
 (run-until 3000
            (at-beginning output-epsilon)
-           (to-appended "ez" (at-every 100 output-efield-z))
-           )
+           (at-every 30 (output-png Ez "-Zc bluered")))
 
 
 ;; y range:1.75 through -1.75 y total 3.5
