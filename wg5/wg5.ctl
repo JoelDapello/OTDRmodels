@@ -82,7 +82,7 @@
 
 
 ;; output 
-(run-until 3000
+(run-until 300
            (at-beginning output-epsilon)
            (at-every 30 (output-png Ez "-Zc bluered")))
 
