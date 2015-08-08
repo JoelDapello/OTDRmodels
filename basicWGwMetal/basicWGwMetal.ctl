@@ -13,7 +13,7 @@
                     )))
 
 ;; set grid (2d)
-(define-param sx 200) ; size of cell in um
+(define-param sx 70) ; size of cell in um
 (define-param sy 6) ; size of cell in Y direction in um
 (set! geometry-lattice (make lattice (size sx sy no-size)))
 
@@ -51,18 +51,18 @@
 (set! pml-layers (list (make pml (thickness 0.1))))
 (set! resolution 50)
 
-(define refl ; reflected flux                                                   
-  (add-flux 0.66 0.5 100
-            (make flux-region 
-              (center -3 0) (size 0 1))))
+;; (define refl ; reflected flux                                                   
+;;   (add-flux 0.66 0.5 100
+;;             (make flux-region 
+;;               (center -30 0) (size 0 1))))
 
 ;; output 
-(run-until 1000
+(run-until 240
            (at-beginning output-epsilon)
            (at-every 30 (output-png Ez "-Zc bluered"))
            )
 
-(display-fluxes refl)
+;; (display-fluxes refl)
 
 ;; y range:1.75 through -1.75 y total 3.5
 
