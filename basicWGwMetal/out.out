@@ -1,0 +1,41 @@
+Using MPI version 3.0, 1 processes
+-----------
+Initializing structure...
+Working in 2D dimensions.
+Computational cell is 200 x 6 x 0 with resolution 50
+     block, center = (0,1.625,0)
+          size (1e+20,2.75,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+     block, center = (0,0,0)
+          size (1e+20,0.5,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (11.68,11.68,11.68)
+     block, center = (0,1,0)
+          size (1e+20,1.5,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     block, center = (0,2.25,0)
+          size (1e+20,1,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+time for set_epsilon = 7.39167 s
+lorentzian susceptibility: frequency=7.4598, gamma=6.8694
+lorentzian susceptibility: frequency=2.5334, gamma=2.9584
+lorentzian susceptibility: frequency=1.0598, gamma=1.4824
+lorentzian susceptibility: frequency=0.62911, gamma=0.41699
+lorentzian susceptibility: frequency=1e-20, gamma=0.064524
+-----------
+creating output file "./basicWGwMetal-eps-000000.00.h5"...
+Meep progress: 0.42/1000.0 = 0.0% done in 4.1s, 9646.8s to go
+on time step 43 (time=0.43), 0.0932236 s/step
+Meep progress: 0.92/1000.0 = 0.1% done in 8.1s, 8820.1s to go
+on time step 93 (time=0.93), 0.081382 s/step
+Meep progress: 1.42/1000.0 = 0.1% done in 12.2s, 8567.4s to go
+on time step 143 (time=1.43), 0.081228 s/step
+Meep progress: 1.92/1000.0 = 0.2% done in 16.3s, 8448.4s to go
+on time step 193 (time=1.93), 0.0813775 s/step
+Meep progress: 2.42/1000.0 = 0.2% done in 20.3s, 8376.4s to go
+on time step 243 (time=2.43), 0.0814227 s/step
+Meep progress: 2.92/1000.0 = 0.3% done in 24.4s, 8328.6s to go
+on time step 293 (time=2.93), 0.081345 s/step

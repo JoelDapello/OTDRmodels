@@ -1,0 +1,14 @@
+Using MPI version 3.0, 1 processes
+Backtrace:
+In ice-9/boot-9.scm:
+ 157: 4 [catch #t #<catch-closure 1821840> ...]
+In unknown file:
+   ?: 3 [apply-smob/1 #<catch-closure 1821840>]
+In ice-9/eval.scm:
+ 432: 2 [eval # #]
+ 432: 1 [eval # #]
+In unknown file:
+   ?: 0 [primitive-load "basicWG2"]
+
+ERROR: In procedure primitive-load:
+ERROR: In procedure open-file: No such file or directory: "basicWG2"
