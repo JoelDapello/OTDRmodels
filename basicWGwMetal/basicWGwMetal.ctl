@@ -34,10 +34,10 @@
                 (make block (center 0 0 ) (size infinity 0.5 infinity)
                       (material (make dielectric (epsilon 11.68))))
                 ;; weak inner conductor
-                (make block (center 0 1 ) (size infinity 1.5 infinity)
+                (make block (center 0 -1 ) (size infinity 1.5 infinity)
                       (material (make dielectric (epsilon 9.0))))
                 ;; platinum
-                (make block (center 0 2.25 ) (size infinity 1 infinity)
+                (make block (center 0 -2.25 ) (size infinity 1 infinity)
                       (material myPt))
                 ))
 
