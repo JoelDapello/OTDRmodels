@@ -29,7 +29,7 @@
 (set! geometry (list
                 ;; nanosheet capacitor
                 (make block (center 0 1.625 ) (size infinity 2.75 infinity)
-                      (material (make dielectric (epsilon 1.0))))
+                      (material (make dielectric (epsilon 9.0))))
                 ;; waveguide w/ alternating free carrier injection
                 (make block (center 0 0 ) (size infinity 0.5 infinity)
                       (material (make dielectric (epsilon 11.68))))
