@@ -13,26 +13,26 @@
                     )))
 
 ;; set grid (2d)
-(define-param sx 140) ; size of cell in um
+(define-param sx 300) ; size of cell in um
 (define-param sy 6) ; size of cell in Y direction in um
 (set! geometry-lattice (make lattice (size sx sy no-size)))
 
 ;; make objects
 (set! geometry (list
                 ;; weak outter
-                (make block (center 0 1.775 ) (size 110 3 infinity)
+                (make block (center 0 1.775 ) (size 250 3 infinity)
                       (material (make dielectric (epsilon 9))))
                 ;; nanosheet capacitor
-                (make block (center 0 0.275 ) (size 110 0.05 infinity)
+                (make block (center 0 0.275 ) (size 250 0.05 infinity)
                       (material (make dielectric (epsilon 4))))
                 ;; waveguide 
                 (make block (center 0 0 ) (size infinity 0.5 infinity)
                       (material (make dielectric (epsilon 11.68))))
                 ;; weak inner conductor
-                (make block (center 0 -1 ) (size 110 1.5 infinity)
+                (make block (center 0 -1 ) (size 250 1.5 infinity)
                       (material (make dielectric (epsilon 9.0))))
                 ;; platinum
-                (make block (center 0 -2.25 ) (size 110 1 infinity)
+                (make block (center 0 -2.25 ) (size 250 1 infinity)
                       (material myPt))
                 ))
 
@@ -49,17 +49,17 @@
 (define x1 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center -50 0) (size 0 1))))
+              (center -50 0) (size 0 .5))))
 
 (define x2 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center 50 0) (size 0 1))))
+              (center 50 0) (size 0 .5))))
 
 ;; output 
-(run-until 500
+(run-until 1500
            (at-beginning output-epsilon)
-           (at-every 30 (output-png Ez "-Zc bluered"))
+           (at-every 100 (output-png Ez "-Zc bluered"))
            )
 
 (display-fluxes x1)
