@@ -3,13 +3,19 @@
 (define-param sy 3.5) ; size of cell in Y direction in um
 (set! geometry-lattice (make lattice (size sx sy no-size)))
 
-;; 1276.25,
-;; 1225,
-;; 1218.75,
-;; 968.75,
-;; -276.25,
-;; -1301.25 ]
-
+(define myPt (make dielectric (epsilon 1)
+                   (polarizations
+                    (make polarizability
+                      (omega 1e-20) (gamma 0.064524) (sigma 1.9923e+41))
+                    (make polarizability
+                      (omega 0.62911) (gamma 0.41699) (sigma 28.872))
+                    (make polarizability
+                      (omega 1.0598) (gamma 1.4824) (sigma 35.102))
+                    (make polarizability
+                      (omega 2.5334) (gamma 2.9584) (sigma 5.099))
+                    (make polarizability
+                      (omega 7.4598) (gamma 6.8694) (sigma 3.8445))
+                    )))
 
 ;; make objects
 (set! geometry (list
@@ -33,18 +39,18 @@
                       (material (make dielectric (epsilon 9.0))))
                 ;; ground make platinum 
                 (make block (center 0 -1.5 ) (size infinity 0.5 infinity)
-                      (material metal))
+                      (material myPt))
                 ))
 
 ;; sources
 (set! sources (list
                (make source
-                 (src (make gaussian-src (wavelength 1.5) (width 9.5))) ;; make pulse width 100 femto seconds    
+                 (src (make gaussian-src (wavelength 1.5) (width 5))) ;; make pulse width 100 femto seconds    
                  (component Ez)
                  (center (* (- (/ sx 2) 1) -1) 1 ) (size 0 0.5))))
 
 (set! pml-layers (list (make pml (thickness 0.1))))
-(set! resolution 30)
+(set! resolution 60)
 
 ;; output 
 (run-until 1000
