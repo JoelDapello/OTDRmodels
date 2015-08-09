@@ -1,0 +1,796 @@
+-----------
+Initializing structure...
+Working in 2D dimensions.
+Computational cell is 100 x 6 x 0 with resolution 50
+     block, center = (10,1.775,0)
+          size (80,3,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     block, center = (10,0.275,0)
+          size (80,0.05,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (4,4,4)
+     block, center = (-15,0,0)
+          size (70,0.5,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (11.68,11.68,11.68)
+     block, center = (30,0,0)
+          size (20,0.5,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (11.673,11.673,11.673)
+     block, center = (45,0,0)
+          size (10,0.5,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (11.68,11.68,11.68)
+     block, center = (10,-1,0)
+          size (80,1.5,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     block, center = (10,-2.25,0)
+          size (80,1,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+time for set_epsilon = 9.64328 s
+-----------
+creating output file "./refl0.001-eps-000000.00.h5"...
+Meep progress: 1.23/500.0 = 0.2% done in 4.0s, 1631.3s to go
+on time step 129 (time=1.29), 0.0312114 s/step
+Meep progress: 2.71/500.0 = 0.5% done in 8.0s, 1475.2s to go
+on time step 277 (time=2.77), 0.0271071 s/step
+Meep progress: 4.19/500.0 = 0.8% done in 12.0s, 1425.8s to go
+on time step 425 (time=4.25), 0.0271015 s/step
+Meep progress: 5.67/500.0 = 1.1% done in 16.1s, 1400.8s to go
+on time step 573 (time=5.73), 0.0271508 s/step
+Meep progress: 7.15/500.0 = 1.4% done in 20.1s, 1383.9s to go
+on time step 721 (time=7.21), 0.0270974 s/step
+Meep progress: 8.62/500.0 = 1.7% done in 24.1s, 1372.8s to go
+on time step 868 (time=8.68), 0.0272269 s/step
+Meep progress: 10.1/500.0 = 2.0% done in 28.1s, 1362.2s to go
+on time step 1016 (time=10.16), 0.0270355 s/step
+Meep progress: 11.58/500.0 = 2.3% done in 32.1s, 1353.5s to go
+on time step 1164 (time=11.64), 0.0270849 s/step
+Meep progress: 13.06/500.0 = 2.6% done in 36.1s, 1345.9s to go
+on time step 1312 (time=13.12), 0.0270623 s/step
+Meep progress: 14.54/500.0 = 2.9% done in 40.1s, 1338.9s to go
+on time step 1460 (time=14.6), 0.0270643 s/step
+Meep progress: 16.02/500.0 = 3.2% done in 44.1s, 1333.2s to go
+on time step 1608 (time=16.08), 0.0272024 s/step
+Meep progress: 17.5/500.0 = 3.5% done in 48.1s, 1327.1s to go
+on time step 1756 (time=17.56), 0.0270597 s/step
+Meep progress: 18.98/500.0 = 3.8% done in 52.1s, 1321.7s to go
+on time step 1904 (time=19.04), 0.0271473 s/step
+Meep progress: 20.46/500.0 = 4.1% done in 56.2s, 1316.1s to go
+on time step 2052 (time=20.52), 0.0270413 s/step
+Meep progress: 21.94/500.0 = 4.4% done in 60.2s, 1311.0s to go
+on time step 2200 (time=22), 0.0271042 s/step
+Meep progress: 23.42/500.0 = 4.7% done in 64.2s, 1305.9s to go
+on time step 2348 (time=23.48), 0.0270899 s/step
+Meep progress: 24.9/500.0 = 5.0% done in 68.2s, 1301.0s to go
+on time step 2496 (time=24.96), 0.027099 s/step
+Meep progress: 26.38/500.0 = 5.3% done in 72.2s, 1296.2s to go
+on time step 2644 (time=26.44), 0.0270834 s/step
+Meep progress: 27.86/500.0 = 5.6% done in 76.2s, 1291.5s to go
+on time step 2792 (time=27.92), 0.0271191 s/step
+Meep progress: 29.34/500.0 = 5.9% done in 80.2s, 1287.0s to go
+on time step 2940 (time=29.4), 0.0271683 s/step
+Meep progress: 30.82/500.0 = 6.2% done in 84.2s, 1282.4s to go
+on time step 3088 (time=30.88), 0.0270977 s/step
+Meep progress: 32.3/500.0 = 6.5% done in 88.2s, 1277.8s to go
+on time step 3236 (time=32.36), 0.0270756 s/step
+Meep progress: 33.94/500.0 = 6.8% done in 92.3s, 1267.0s to go
+on time step 3401 (time=34.01), 0.0244017 s/step
+Meep progress: 35.59/500.0 = 7.1% done in 96.3s, 1256.3s to go
+on time step 3565 (time=35.65), 0.0244004 s/step
+Meep progress: 37.11/500.0 = 7.4% done in 100.3s, 1250.8s to go
+on time step 3718 (time=37.18), 0.026166 s/step
+Meep progress: 38.81/500.0 = 7.8% done in 104.3s, 1239.2s to go
+on time step 3888 (time=38.88), 0.0235579 s/step
+Meep progress: 40.51/500.0 = 8.1% done in 108.3s, 1228.2s to go
+on time step 4058 (time=40.58), 0.0235359 s/step
+Meep progress: 42.22/500.0 = 8.4% done in 112.3s, 1217.7s to go
+on time step 4229 (time=42.29), 0.0235082 s/step
+Meep progress: 43.93/500.0 = 8.8% done in 116.3s, 1207.7s to go
+on time step 4400 (time=44), 0.0235235 s/step
+Meep progress: 45.63/500.0 = 9.1% done in 120.3s, 1198.2s to go
+on time step 4570 (time=45.7), 0.0235619 s/step
+Meep progress: 47.34/500.0 = 9.5% done in 124.3s, 1189.0s to go
+on time step 4741 (time=47.41), 0.0234904 s/step
+Meep progress: 49.05/500.0 = 9.8% done in 128.4s, 1180.2s to go
+on time step 4912 (time=49.12), 0.0235258 s/step
+Meep progress: 50.75/500.0 = 10.2% done in 132.4s, 1171.8s to go
+on time step 5082 (time=50.82), 0.0235485 s/step
+Meep progress: 52.45/500.0 = 10.5% done in 136.4s, 1163.8s to go
+on time step 5252 (time=52.52), 0.0236483 s/step
+Meep progress: 54.16/500.0 = 10.8% done in 140.4s, 1155.9s to go
+on time step 5423 (time=54.23), 0.0235059 s/step
+Meep progress: 55.86/500.0 = 11.2% done in 144.4s, 1148.2s to go
+on time step 5594 (time=55.94), 0.0235235 s/step
+Meep progress: 57.57/500.0 = 11.5% done in 148.4s, 1140.7s to go
+on time step 5765 (time=57.65), 0.0234692 s/step
+Meep progress: 59.28/500.0 = 11.9% done in 152.5s, 1133.4s to go
+on time step 5935 (time=59.35), 0.0235374 s/step
+Meep progress: 60.99/500.0 = 12.2% done in 156.5s, 1126.2s to go
+on time step 6106 (time=61.06), 0.023466 s/step
+Meep progress: 62.7/500.0 = 12.5% done in 160.5s, 1119.3s to go
+on time step 6277 (time=62.77), 0.0235005 s/step
+Meep progress: 64.41/500.0 = 12.9% done in 164.5s, 1112.4s to go
+on time step 6448 (time=64.48), 0.0234568 s/step
+Meep progress: 66.09/500.0 = 13.2% done in 168.5s, 1106.4s to go
+on time step 6616 (time=66.16), 0.0239283 s/step
+Meep progress: 67.8/500.0 = 13.6% done in 172.5s, 1099.8s to go
+on time step 6787 (time=67.87), 0.0234714 s/step
+Meep progress: 69.51/500.0 = 13.9% done in 176.5s, 1093.3s to go
+on time step 6958 (time=69.58), 0.0234615 s/step
+Meep progress: 71.22/500.0 = 14.2% done in 180.5s, 1087.0s to go
+on time step 7129 (time=71.29), 0.0234519 s/step
+Meep progress: 72.93/500.0 = 14.6% done in 184.6s, 1080.8s to go
+on time step 7300 (time=73), 0.0234929 s/step
+Meep progress: 74.64/500.0 = 14.9% done in 188.6s, 1074.7s to go
+on time step 7472 (time=74.72), 0.0233071 s/step
+Meep progress: 76.42/500.0 = 15.3% done in 192.6s, 1067.5s to go
+on time step 7649 (time=76.49), 0.0226501 s/step
+Meep progress: 78.13/500.0 = 15.6% done in 196.6s, 1061.6s to go
+on time step 7820 (time=78.2), 0.0234662 s/step
+Meep progress: 79.84/500.0 = 16.0% done in 200.6s, 1055.7s to go
+on time step 7991 (time=79.91), 0.023451 s/step
+Meep progress: 81.55/500.0 = 16.3% done in 204.6s, 1049.9s to go
+on time step 8162 (time=81.62), 0.0234516 s/step
+Meep progress: 83.11/500.0 = 16.6% done in 208.6s, 1046.5s to go
+on time step 8317 (time=83.17), 0.0259078 s/step
+Meep progress: 84.75/500.0 = 17.0% done in 212.6s, 1041.9s to go
+on time step 8482 (time=84.82), 0.0243054 s/step
+Meep progress: 86.27/500.0 = 17.3% done in 216.7s, 1039.0s to go
+on time step 8634 (time=86.34), 0.0264763 s/step
+Meep progress: 87.76/500.0 = 17.6% done in 220.7s, 1036.5s to go
+on time step 8784 (time=87.84), 0.0267748 s/step
+Meep progress: 89.35/500.0 = 17.9% done in 224.7s, 1032.6s to go
+on time step 8942 (time=89.42), 0.0253882 s/step
+Meep progress: 90.95/500.0 = 18.2% done in 228.7s, 1028.5s to go
+on time step 9103 (time=91.03), 0.0249123 s/step
+Meep progress: 92.55/500.0 = 18.5% done in 232.7s, 1024.4s to go
+on time step 9263 (time=92.63), 0.025029 s/step
+Meep progress: 94.19/500.0 = 18.8% done in 236.7s, 1019.9s to go
+on time step 9425 (time=94.25), 0.0246949 s/step
+Meep progress: 95.68/500.0 = 19.1% done in 240.7s, 1017.3s to go
+on time step 9573 (time=95.73), 0.0270562 s/step
+Meep progress: 97.24/500.0 = 19.4% done in 244.8s, 1013.8s to go
+on time step 9730 (time=97.3), 0.0255552 s/step
+Meep progress: 99.05/500.0 = 19.8% done in 248.8s, 1007.0s to go
+on time step 9912 (time=99.12), 0.0220207 s/step
+creating output file "./refl0.001-ez-000100.00.h5"...
+Meep progress: 100.54/500.0 = 20.1% done in 252.8s, 1004.3s to go
+on time step 10061 (time=100.61), 0.0269565 s/step
+Meep progress: 102.18/500.0 = 20.4% done in 256.8s, 999.7s to go
+on time step 10224 (time=102.24), 0.0246904 s/step
+Meep progress: 103.94/500.0 = 20.8% done in 260.8s, 993.7s to go
+on time step 10402 (time=104.02), 0.0225453 s/step
+Meep progress: 105.82/500.0 = 21.2% done in 264.8s, 986.4s to go
+on time step 10590 (time=105.9), 0.0213705 s/step
+Meep progress: 107.71/500.0 = 21.5% done in 268.8s, 979.0s to go
+on time step 10779 (time=107.79), 0.0211821 s/step
+Meep progress: 109.6/500.0 = 21.9% done in 272.8s, 971.8s to go
+on time step 10968 (time=109.68), 0.0212088 s/step
+Meep progress: 111.48/500.0 = 22.3% done in 276.8s, 964.7s to go
+on time step 11156 (time=111.56), 0.0212942 s/step
+Meep progress: 113.35/500.0 = 22.7% done in 280.8s, 958.0s to go
+on time step 11341 (time=113.41), 0.0216501 s/step
+Meep progress: 114.84/500.0 = 23.0% done in 284.9s, 955.4s to go
+on time step 11490 (time=114.9), 0.0269918 s/step
+Meep progress: 116.66/500.0 = 23.3% done in 288.9s, 949.2s to go
+on time step 11674 (time=116.74), 0.021786 s/step
+Meep progress: 118.55/500.0 = 23.7% done in 292.9s, 942.3s to go
+on time step 11863 (time=118.63), 0.0212176 s/step
+Meep progress: 120.44/500.0 = 24.1% done in 296.9s, 935.6s to go
+on time step 12052 (time=120.52), 0.0211774 s/step
+Meep progress: 122.34/500.0 = 24.5% done in 300.9s, 928.8s to go
+on time step 12242 (time=122.42), 0.0211361 s/step
+Meep progress: 124.23/500.0 = 24.8% done in 304.9s, 922.3s to go
+on time step 12431 (time=124.31), 0.0212631 s/step
+Meep progress: 126.12/500.0 = 25.2% done in 308.9s, 915.8s to go
+on time step 12620 (time=126.2), 0.0212139 s/step
+Meep progress: 128.01/500.0 = 25.6% done in 312.9s, 909.3s to go
+on time step 12809 (time=128.09), 0.02122 s/step
+Meep progress: 129.9/500.0 = 26.0% done in 316.9s, 903.0s to go
+on time step 12998 (time=129.98), 0.0211826 s/step
+Meep progress: 131.78/500.0 = 26.4% done in 320.9s, 896.8s to go
+on time step 13186 (time=131.86), 0.0213117 s/step
+Meep progress: 133.66/500.0 = 26.7% done in 324.9s, 890.6s to go
+on time step 13374 (time=133.74), 0.0212811 s/step
+Meep progress: 135.55/500.0 = 27.1% done in 329.0s, 884.4s to go
+on time step 13563 (time=135.63), 0.0212588 s/step
+Meep progress: 137.43/500.0 = 27.5% done in 333.0s, 878.4s to go
+on time step 13751 (time=137.51), 0.0212827 s/step
+Meep progress: 139.32/500.0 = 27.9% done in 337.0s, 872.3s to go
+on time step 13940 (time=139.4), 0.0211655 s/step
+Meep progress: 141.22/500.0 = 28.2% done in 341.0s, 866.3s to go
+on time step 14130 (time=141.3), 0.0211192 s/step
+Meep progress: 143.12/500.0 = 28.6% done in 345.0s, 860.3s to go
+on time step 14320 (time=143.2), 0.0211524 s/step
+Meep progress: 145.01/500.0 = 29.0% done in 349.0s, 854.3s to go
+on time step 14509 (time=145.09), 0.0211832 s/step
+Meep progress: 146.89/500.0 = 29.4% done in 353.0s, 848.6s to go
+on time step 14697 (time=146.97), 0.0212859 s/step
+Meep progress: 148.79/500.0 = 29.8% done in 357.0s, 842.7s to go
+on time step 14887 (time=148.87), 0.0211446 s/step
+Meep progress: 150.68/500.0 = 30.1% done in 361.0s, 837.0s to go
+on time step 15076 (time=150.76), 0.0212464 s/step
+Meep progress: 152.57/500.0 = 30.5% done in 365.0s, 831.3s to go
+on time step 15265 (time=152.65), 0.0212597 s/step
+Meep progress: 154.46/500.0 = 30.9% done in 369.1s, 825.6s to go
+on time step 15454 (time=154.54), 0.0212005 s/step
+Meep progress: 156.35/500.0 = 31.3% done in 373.1s, 820.0s to go
+on time step 15643 (time=156.43), 0.0212197 s/step
+Meep progress: 158.24/500.0 = 31.6% done in 377.1s, 814.4s to go
+on time step 15831 (time=158.31), 0.021292 s/step
+Meep progress: 160.13/500.0 = 32.0% done in 381.1s, 808.9s to go
+on time step 16020 (time=160.2), 0.0212568 s/step
+Meep progress: 162.02/500.0 = 32.4% done in 385.1s, 803.3s to go
+on time step 16209 (time=162.09), 0.0211806 s/step
+Meep progress: 163.91/500.0 = 32.8% done in 389.1s, 797.9s to go
+on time step 16398 (time=163.98), 0.0212387 s/step
+Meep progress: 165.8/500.0 = 33.2% done in 393.1s, 792.4s to go
+on time step 16587 (time=165.87), 0.0212406 s/step
+Meep progress: 167.68/500.0 = 33.5% done in 397.1s, 787.1s to go
+on time step 16775 (time=167.75), 0.0212948 s/step
+Meep progress: 169.57/500.0 = 33.9% done in 401.1s, 781.7s to go
+on time step 16964 (time=169.64), 0.0211774 s/step
+Meep progress: 171.46/500.0 = 34.3% done in 405.2s, 776.3s to go
+on time step 17153 (time=171.53), 0.0212188 s/step
+Meep progress: 173.35/500.0 = 34.7% done in 409.2s, 771.0s to go
+on time step 17342 (time=173.42), 0.0211641 s/step
+Meep progress: 175.31/500.0 = 35.1% done in 413.2s, 765.2s to go
+on time step 17537 (time=175.37), 0.0205171 s/step
+Meep progress: 177.2/500.0 = 35.4% done in 417.2s, 760.0s to go
+on time step 17726 (time=177.26), 0.0212279 s/step
+Meep progress: 179.09/500.0 = 35.8% done in 421.2s, 754.7s to go
+on time step 17915 (time=179.15), 0.0212273 s/step
+Meep progress: 180.99/500.0 = 36.2% done in 425.2s, 749.5s to go
+on time step 18105 (time=181.05), 0.0211421 s/step
+Meep progress: 182.91/500.0 = 36.6% done in 429.2s, 744.1s to go
+on time step 18298 (time=182.98), 0.0207723 s/step
+Meep progress: 184.83/500.0 = 37.0% done in 433.2s, 738.7s to go
+on time step 18489 (time=184.89), 0.020964 s/step
+Meep progress: 186.73/500.0 = 37.3% done in 437.2s, 733.5s to go
+on time step 18679 (time=186.79), 0.0211144 s/step
+Meep progress: 188.63/500.0 = 37.7% done in 441.2s, 728.4s to go
+on time step 18869 (time=188.69), 0.0210736 s/step
+Meep progress: 190.53/500.0 = 38.1% done in 445.3s, 723.2s to go
+on time step 19059 (time=190.59), 0.0211242 s/step
+Meep progress: 192.43/500.0 = 38.5% done in 449.3s, 718.1s to go
+on time step 19249 (time=192.49), 0.0211421 s/step
+Meep progress: 194.33/500.0 = 38.9% done in 453.3s, 713.0s to go
+on time step 19439 (time=194.39), 0.0210729 s/step
+Meep progress: 196.23/500.0 = 39.2% done in 457.3s, 707.9s to go
+on time step 19629 (time=196.29), 0.0211037 s/step
+Meep progress: 198.13/500.0 = 39.6% done in 461.3s, 702.8s to go
+on time step 19819 (time=198.19), 0.0210722 s/step
+creating output file "./refl0.001-ez-000200.00.h5"...
+on time step 20000 (time=200), 0.0251512 s/step
+Meep progress: 200.01/500.0 = 40.0% done in 466.0s, 698.9s to go
+on time step 20159 (time=201.59), 0.0251589 s/step
+Meep progress: 201.61/500.0 = 40.3% done in 470.0s, 695.6s to go
+on time step 20346 (time=203.46), 0.0214284 s/step
+Meep progress: 203.48/500.0 = 40.7% done in 474.0s, 690.8s to go
+on time step 20533 (time=205.33), 0.021435 s/step
+Meep progress: 205.35/500.0 = 41.1% done in 478.0s, 685.9s to go
+on time step 20721 (time=207.21), 0.0213806 s/step
+Meep progress: 207.23/500.0 = 41.4% done in 482.1s, 681.0s to go
+on time step 20908 (time=209.08), 0.0214401 s/step
+Meep progress: 209.1/500.0 = 41.8% done in 486.1s, 676.2s to go
+on time step 21096 (time=210.96), 0.0212892 s/step
+Meep progress: 210.98/500.0 = 42.2% done in 490.1s, 671.3s to go
+on time step 21284 (time=212.84), 0.0213891 s/step
+Meep progress: 212.85/500.0 = 42.6% done in 494.1s, 666.5s to go
+on time step 21471 (time=214.71), 0.0214263 s/step
+Meep progress: 214.72/500.0 = 42.9% done in 498.1s, 661.7s to go
+on time step 21658 (time=216.58), 0.0214112 s/step
+Meep progress: 216.59/500.0 = 43.3% done in 502.1s, 657.0s to go
+on time step 21845 (time=218.45), 0.0213915 s/step
+Meep progress: 218.46/500.0 = 43.7% done in 506.1s, 652.2s to go
+on time step 22033 (time=220.33), 0.0213044 s/step
+Meep progress: 220.34/500.0 = 44.1% done in 510.1s, 647.4s to go
+on time step 22221 (time=222.21), 0.0213107 s/step
+Meep progress: 222.22/500.0 = 44.4% done in 514.1s, 642.6s to go
+on time step 22409 (time=224.09), 0.0213819 s/step
+Meep progress: 224.1/500.0 = 44.8% done in 518.1s, 637.9s to go
+on time step 22596 (time=225.96), 0.0214329 s/step
+Meep progress: 225.97/500.0 = 45.2% done in 522.1s, 633.2s to go
+on time step 22783 (time=227.83), 0.0213964 s/step
+Meep progress: 227.84/500.0 = 45.6% done in 526.1s, 628.5s to go
+on time step 22971 (time=229.71), 0.0213793 s/step
+Meep progress: 229.72/500.0 = 45.9% done in 530.1s, 623.7s to go
+on time step 23159 (time=231.59), 0.021332 s/step
+Meep progress: 231.6/500.0 = 46.3% done in 534.1s, 619.0s to go
+on time step 23347 (time=233.47), 0.0212807 s/step
+Meep progress: 233.48/500.0 = 46.7% done in 538.1s, 614.3s to go
+on time step 23536 (time=235.36), 0.021192 s/step
+Meep progress: 235.37/500.0 = 47.1% done in 542.2s, 609.5s to go
+on time step 23724 (time=237.24), 0.0213034 s/step
+Meep progress: 237.25/500.0 = 47.4% done in 546.2s, 604.9s to go
+on time step 23911 (time=239.11), 0.0214598 s/step
+Meep progress: 239.12/500.0 = 47.8% done in 550.2s, 600.2s to go
+on time step 24100 (time=241), 0.0212623 s/step
+Meep progress: 241.01/500.0 = 48.2% done in 554.2s, 595.5s to go
+on time step 24288 (time=242.88), 0.0213336 s/step
+Meep progress: 242.89/500.0 = 48.6% done in 558.2s, 590.9s to go
+on time step 24475 (time=244.75), 0.0214814 s/step
+Meep progress: 244.76/500.0 = 49.0% done in 562.2s, 586.3s to go
+on time step 24661 (time=246.61), 0.0215221 s/step
+Meep progress: 246.62/500.0 = 49.3% done in 566.2s, 581.7s to go
+on time step 24850 (time=248.5), 0.0212628 s/step
+Meep progress: 248.51/500.0 = 49.7% done in 570.2s, 577.1s to go
+on time step 25038 (time=250.38), 0.0213452 s/step
+Meep progress: 250.39/500.0 = 50.1% done in 574.3s, 572.5s to go
+on time step 25226 (time=252.26), 0.0213632 s/step
+Meep progress: 252.27/500.0 = 50.5% done in 578.3s, 567.9s to go
+on time step 25413 (time=254.13), 0.0214829 s/step
+Meep progress: 254.14/500.0 = 50.8% done in 582.3s, 563.3s to go
+on time step 25600 (time=256), 0.0214942 s/step
+Meep progress: 256.01/500.0 = 51.2% done in 586.3s, 558.8s to go
+on time step 25787 (time=257.87), 0.0215038 s/step
+Meep progress: 257.88/500.0 = 51.6% done in 590.3s, 554.2s to go
+on time step 25974 (time=259.74), 0.0214629 s/step
+Meep progress: 259.75/500.0 = 52.0% done in 594.3s, 549.7s to go
+on time step 26161 (time=261.61), 0.0214176 s/step
+Meep progress: 261.62/500.0 = 52.3% done in 598.3s, 545.2s to go
+on time step 26349 (time=263.49), 0.0213538 s/step
+Meep progress: 263.5/500.0 = 52.7% done in 602.4s, 540.6s to go
+on time step 26537 (time=265.37), 0.0212798 s/step
+Meep progress: 265.38/500.0 = 53.1% done in 606.4s, 536.1s to go
+on time step 26725 (time=267.25), 0.0213063 s/step
+Meep progress: 267.26/500.0 = 53.5% done in 610.4s, 531.5s to go
+on time step 26913 (time=269.13), 0.0213423 s/step
+Meep progress: 269.14/500.0 = 53.8% done in 614.4s, 527.0s to go
+on time step 27101 (time=271.01), 0.0213825 s/step
+Meep progress: 271.02/500.0 = 54.2% done in 618.4s, 522.5s to go
+on time step 27287 (time=272.87), 0.0215567 s/step
+Meep progress: 272.88/500.0 = 54.6% done in 622.4s, 518.0s to go
+on time step 27472 (time=274.72), 0.021678 s/step
+Meep progress: 274.73/500.0 = 54.9% done in 626.4s, 513.6s to go
+on time step 27664 (time=276.64), 0.0208444 s/step
+Meep progress: 276.65/500.0 = 55.3% done in 630.4s, 509.0s to go
+on time step 27851 (time=278.51), 0.0214454 s/step
+Meep progress: 278.52/500.0 = 55.7% done in 634.4s, 504.5s to go
+on time step 28038 (time=280.38), 0.0214405 s/step
+Meep progress: 280.39/500.0 = 56.1% done in 638.4s, 500.0s to go
+on time step 28226 (time=282.26), 0.0213241 s/step
+Meep progress: 282.27/500.0 = 56.5% done in 642.4s, 495.6s to go
+on time step 28421 (time=284.21), 0.0205974 s/step
+Meep progress: 284.22/500.0 = 56.8% done in 646.5s, 490.8s to go
+on time step 28608 (time=286.08), 0.0214732 s/step
+Meep progress: 286.09/500.0 = 57.2% done in 650.5s, 486.4s to go
+on time step 28795 (time=287.95), 0.0213972 s/step
+Meep progress: 287.96/500.0 = 57.6% done in 654.5s, 481.9s to go
+on time step 28982 (time=289.82), 0.0214913 s/step
+Meep progress: 289.83/500.0 = 58.0% done in 658.5s, 477.5s to go
+on time step 29170 (time=291.7), 0.0213746 s/step
+Meep progress: 291.71/500.0 = 58.3% done in 662.5s, 473.1s to go
+on time step 29357 (time=293.57), 0.0214122 s/step
+Meep progress: 293.58/500.0 = 58.7% done in 666.5s, 468.6s to go
+on time step 29544 (time=295.44), 0.0214823 s/step
+Meep progress: 295.45/500.0 = 59.1% done in 670.5s, 464.2s to go
+on time step 29731 (time=297.31), 0.0214755 s/step
+Meep progress: 297.32/500.0 = 59.5% done in 674.6s, 459.8s to go
+on time step 29918 (time=299.18), 0.021417 s/step
+Meep progress: 299.19/500.0 = 59.8% done in 678.6s, 455.4s to go
+creating output file "./refl0.001-ez-000300.00.h5"...
+on time step 30070 (time=300.7), 0.0263512 s/step
+Meep progress: 300.71/500.0 = 60.1% done in 682.6s, 452.4s to go
+on time step 30228 (time=302.28), 0.0253844 s/step
+Meep progress: 302.29/500.0 = 60.5% done in 686.6s, 449.1s to go
+on time step 30405 (time=304.05), 0.0226533 s/step
+Meep progress: 304.06/500.0 = 60.8% done in 690.6s, 445.0s to go
+on time step 30590 (time=305.9), 0.0216565 s/step
+Meep progress: 305.91/500.0 = 61.2% done in 694.6s, 440.7s to go
+on time step 30776 (time=307.76), 0.0215963 s/step
+Meep progress: 307.77/500.0 = 61.6% done in 698.6s, 436.3s to go
+on time step 30961 (time=309.61), 0.0216809 s/step
+Meep progress: 309.62/500.0 = 61.9% done in 702.6s, 432.0s to go
+on time step 31147 (time=311.47), 0.0215191 s/step
+Meep progress: 311.48/500.0 = 62.3% done in 706.6s, 427.7s to go
+on time step 31335 (time=313.35), 0.0213618 s/step
+Meep progress: 313.36/500.0 = 62.7% done in 710.6s, 423.3s to go
+on time step 31522 (time=315.22), 0.0214915 s/step
+Meep progress: 315.23/500.0 = 63.0% done in 714.7s, 418.9s to go
+on time step 31707 (time=317.07), 0.0216438 s/step
+Meep progress: 317.08/500.0 = 63.4% done in 718.7s, 414.6s to go
+on time step 31893 (time=318.93), 0.0215913 s/step
+Meep progress: 318.94/500.0 = 63.8% done in 722.7s, 410.3s to go
+on time step 32079 (time=320.79), 0.0215934 s/step
+Meep progress: 320.8/500.0 = 64.2% done in 726.7s, 405.9s to go
+on time step 32266 (time=322.66), 0.0214643 s/step
+Meep progress: 322.67/500.0 = 64.5% done in 730.7s, 401.6s to go
+on time step 32452 (time=324.52), 0.0215073 s/step
+Meep progress: 324.53/500.0 = 64.9% done in 734.7s, 397.3s to go
+on time step 32637 (time=326.37), 0.0216752 s/step
+Meep progress: 326.38/500.0 = 65.3% done in 738.7s, 393.0s to go
+on time step 32823 (time=328.23), 0.0215807 s/step
+Meep progress: 328.24/500.0 = 65.6% done in 742.7s, 388.7s to go
+on time step 33008 (time=330.08), 0.0216923 s/step
+Meep progress: 330.09/500.0 = 66.0% done in 746.7s, 384.4s to go
+on time step 33196 (time=331.96), 0.0213633 s/step
+Meep progress: 331.97/500.0 = 66.4% done in 750.8s, 380.0s to go
+on time step 33383 (time=333.83), 0.0213942 s/step
+Meep progress: 333.84/500.0 = 66.8% done in 754.8s, 375.7s to go
+on time step 33570 (time=335.7), 0.0214685 s/step
+Meep progress: 335.71/500.0 = 67.1% done in 758.8s, 371.3s to go
+on time step 33757 (time=337.57), 0.021461 s/step
+Meep progress: 337.58/500.0 = 67.5% done in 762.8s, 367.0s to go
+on time step 33945 (time=339.45), 0.0213398 s/step
+Meep progress: 339.46/500.0 = 67.9% done in 766.8s, 362.6s to go
+on time step 34133 (time=341.33), 0.0213738 s/step
+Meep progress: 341.34/500.0 = 68.3% done in 770.8s, 358.3s to go
+on time step 34319 (time=343.19), 0.0215617 s/step
+Meep progress: 343.2/500.0 = 68.6% done in 774.8s, 354.0s to go
+on time step 34506 (time=345.06), 0.021469 s/step
+Meep progress: 345.07/500.0 = 69.0% done in 778.8s, 349.7s to go
+on time step 34693 (time=346.93), 0.0214675 s/step
+Meep progress: 346.94/500.0 = 69.4% done in 782.9s, 345.4s to go
+on time step 34880 (time=348.8), 0.0214062 s/step
+Meep progress: 348.81/500.0 = 69.8% done in 786.9s, 341.1s to go
+on time step 35067 (time=350.67), 0.0214074 s/step
+Meep progress: 350.68/500.0 = 70.1% done in 790.9s, 336.8s to go
+on time step 35256 (time=352.56), 0.0212297 s/step
+Meep progress: 352.57/500.0 = 70.5% done in 794.9s, 332.4s to go
+on time step 35443 (time=354.43), 0.0214165 s/step
+Meep progress: 354.44/500.0 = 70.9% done in 798.9s, 328.1s to go
+Meep progress: 356.25/500.0 = 71.2% done in 802.9s, 324.0s to go
+on time step 35625 (time=356.25), 0.0221101 s/step
+Meep progress: 358.11/500.0 = 71.6% done in 806.9s, 319.7s to go
+on time step 35811 (time=358.11), 0.0215315 s/step
+Meep progress: 360.0/500.0 = 72.0% done in 810.9s, 315.3s to go
+on time step 36000 (time=360), 0.0211692 s/step
+Meep progress: 361.86/500.0 = 72.4% done in 814.9s, 311.1s to go
+on time step 36186 (time=361.86), 0.0215171 s/step
+Meep progress: 363.75/500.0 = 72.8% done in 818.9s, 306.7s to go
+on time step 36375 (time=363.75), 0.0212694 s/step
+Meep progress: 365.62/500.0 = 73.1% done in 822.9s, 302.5s to go
+on time step 36562 (time=365.62), 0.0214454 s/step
+Meep progress: 367.5/500.0 = 73.5% done in 826.9s, 298.2s to go
+on time step 36750 (time=367.5), 0.0213677 s/step
+Meep progress: 369.4/500.0 = 73.9% done in 831.0s, 293.8s to go
+on time step 36940 (time=369.4), 0.0211565 s/step
+Meep progress: 371.29/500.0 = 74.3% done in 835.0s, 289.4s to go
+on time step 37129 (time=371.29), 0.0211821 s/step
+Meep progress: 373.14/500.0 = 74.6% done in 839.0s, 285.2s to go
+on time step 37314 (time=373.14), 0.0217343 s/step
+Meep progress: 375.0/500.0 = 75.0% done in 843.0s, 281.0s to go
+on time step 37500 (time=375), 0.0215864 s/step
+Meep progress: 376.94/500.0 = 75.4% done in 847.0s, 276.5s to go
+on time step 37694 (time=376.94), 0.0206366 s/step
+Meep progress: 378.82/500.0 = 75.8% done in 851.0s, 272.2s to go
+on time step 37882 (time=378.82), 0.0213729 s/step
+Meep progress: 380.68/500.0 = 76.1% done in 855.0s, 268.0s to go
+on time step 38068 (time=380.68), 0.0215528 s/step
+Meep progress: 382.57/500.0 = 76.5% done in 859.1s, 263.7s to go
+on time step 38257 (time=382.57), 0.0212618 s/step
+Meep progress: 384.51/500.0 = 76.9% done in 863.1s, 259.2s to go
+on time step 38451 (time=384.51), 0.0206563 s/step
+Meep progress: 386.34/500.0 = 77.3% done in 867.1s, 255.1s to go
+on time step 38634 (time=386.34), 0.0219465 s/step
+Meep progress: 388.22/500.0 = 77.6% done in 871.1s, 250.8s to go
+on time step 38822 (time=388.22), 0.0213634 s/step
+Meep progress: 390.1/500.0 = 78.0% done in 875.1s, 246.5s to go
+on time step 39010 (time=390.1), 0.0213043 s/step
+Meep progress: 391.98/500.0 = 78.4% done in 879.1s, 242.3s to go
+on time step 39198 (time=391.98), 0.021278 s/step
+Meep progress: 393.87/500.0 = 78.8% done in 883.1s, 238.0s to go
+on time step 39387 (time=393.87), 0.021235 s/step
+Meep progress: 395.75/500.0 = 79.2% done in 887.1s, 233.7s to go
+on time step 39575 (time=395.75), 0.0212961 s/step
+Meep progress: 397.62/500.0 = 79.5% done in 891.1s, 229.5s to go
+on time step 39762 (time=397.62), 0.0214997 s/step
+Meep progress: 399.49/500.0 = 79.9% done in 895.1s, 225.2s to go
+on time step 39949 (time=399.49), 0.0214463 s/step
+creating output file "./refl0.001-ez-000400.00.h5"...
+Meep progress: 400.98/500.0 = 80.2% done in 899.2s, 222.0s to go
+on time step 40098 (time=400.98), 0.0269438 s/step
+Meep progress: 402.87/500.0 = 80.6% done in 903.2s, 217.8s to go
+on time step 40287 (time=402.87), 0.0212121 s/step
+Meep progress: 404.75/500.0 = 81.0% done in 907.2s, 213.5s to go
+on time step 40475 (time=404.75), 0.0212915 s/step
+Meep progress: 406.63/500.0 = 81.3% done in 911.2s, 209.2s to go
+on time step 40663 (time=406.63), 0.0213344 s/step
+Meep progress: 408.51/500.0 = 81.7% done in 915.2s, 205.0s to go
+on time step 40851 (time=408.51), 0.0213648 s/step
+Meep progress: 410.39/500.0 = 82.1% done in 919.2s, 200.7s to go
+on time step 41039 (time=410.39), 0.0212847 s/step
+Meep progress: 412.28/500.0 = 82.5% done in 923.2s, 196.4s to go
+on time step 41228 (time=412.28), 0.0212742 s/step
+Meep progress: 414.17/500.0 = 82.8% done in 927.2s, 192.2s to go
+on time step 41417 (time=414.17), 0.0212283 s/step
+Meep progress: 416.06/500.0 = 83.2% done in 931.2s, 187.9s to go
+on time step 41606 (time=416.06), 0.0212058 s/step
+Meep progress: 417.94/500.0 = 83.6% done in 935.2s, 183.6s to go
+on time step 41794 (time=417.94), 0.0213039 s/step
+Meep progress: 419.82/500.0 = 84.0% done in 939.3s, 179.4s to go
+on time step 41982 (time=419.82), 0.0213111 s/step
+Meep progress: 421.7/500.0 = 84.3% done in 943.3s, 175.1s to go
+on time step 42170 (time=421.7), 0.0212781 s/step
+Meep progress: 423.59/500.0 = 84.7% done in 947.3s, 170.9s to go
+on time step 42359 (time=423.59), 0.0212282 s/step
+Meep progress: 425.47/500.0 = 85.1% done in 951.3s, 166.6s to go
+on time step 42547 (time=425.47), 0.021279 s/step
+Meep progress: 427.35/500.0 = 85.5% done in 955.3s, 162.4s to go
+on time step 42735 (time=427.35), 0.0213035 s/step
+Meep progress: 429.23/500.0 = 85.8% done in 959.3s, 158.2s to go
+on time step 42923 (time=429.23), 0.021332 s/step
+Meep progress: 431.11/500.0 = 86.2% done in 963.3s, 153.9s to go
+on time step 43111 (time=431.11), 0.0212908 s/step
+Meep progress: 433.0/500.0 = 86.6% done in 967.3s, 149.7s to go
+on time step 43300 (time=433), 0.0212569 s/step
+Meep progress: 434.89/500.0 = 87.0% done in 971.3s, 145.4s to go
+on time step 43489 (time=434.89), 0.021244 s/step
+Meep progress: 436.78/500.0 = 87.4% done in 975.3s, 141.2s to go
+on time step 43678 (time=436.78), 0.0212567 s/step
+Meep progress: 438.66/500.0 = 87.7% done in 979.3s, 136.9s to go
+on time step 43866 (time=438.66), 0.0213188 s/step
+Meep progress: 440.54/500.0 = 88.1% done in 983.3s, 132.7s to go
+on time step 44054 (time=440.54), 0.021279 s/step
+Meep progress: 442.43/500.0 = 88.5% done in 987.4s, 128.5s to go
+on time step 44243 (time=442.43), 0.0212427 s/step
+Meep progress: 444.32/500.0 = 88.9% done in 991.4s, 124.2s to go
+on time step 44432 (time=444.32), 0.0211991 s/step
+Meep progress: 446.21/500.0 = 89.2% done in 995.4s, 120.0s to go
+on time step 44621 (time=446.21), 0.0211852 s/step
+Meep progress: 448.1/500.0 = 89.6% done in 999.4s, 115.8s to go
+on time step 44810 (time=448.1), 0.0212536 s/step
+Meep progress: 449.99/500.0 = 90.0% done in 1003.4s, 111.5s to go
+on time step 44999 (time=449.99), 0.0212459 s/step
+Meep progress: 451.88/500.0 = 90.4% done in 1007.4s, 107.3s to go
+on time step 45188 (time=451.88), 0.0212722 s/step
+Meep progress: 453.77/500.0 = 90.8% done in 1011.4s, 103.0s to go
+on time step 45377 (time=453.77), 0.0211987 s/step
+Meep progress: 455.58/500.0 = 91.1% done in 1015.4s, 99.0s to go
+on time step 45558 (time=455.58), 0.0221523 s/step
+Meep progress: 457.34/500.0 = 91.5% done in 1019.5s, 95.1s to go
+on time step 45734 (time=457.34), 0.0228044 s/step
+Meep progress: 459.3/500.0 = 91.9% done in 1023.5s, 90.7s to go
+on time step 45930 (time=459.3), 0.0205109 s/step
+Meep progress: 461.2/500.0 = 92.2% done in 1027.5s, 86.4s to go
+on time step 46120 (time=461.2), 0.0211154 s/step
+Meep progress: 463.09/500.0 = 92.6% done in 1031.5s, 82.2s to go
+on time step 46309 (time=463.09), 0.0212623 s/step
+Meep progress: 464.98/500.0 = 93.0% done in 1035.5s, 78.0s to go
+on time step 46498 (time=464.98), 0.0211643 s/step
+Meep progress: 466.93/500.0 = 93.4% done in 1039.5s, 73.6s to go
+on time step 46693 (time=466.93), 0.0205215 s/step
+Meep progress: 468.49/500.0 = 93.7% done in 1043.5s, 70.2s to go
+on time step 46849 (time=468.49), 0.0257878 s/step
+Meep progress: 470.05/500.0 = 94.0% done in 1047.5s, 66.7s to go
+on time step 47005 (time=470.05), 0.0257305 s/step
+Meep progress: 471.68/500.0 = 94.3% done in 1051.6s, 63.1s to go
+on time step 47168 (time=471.68), 0.0245798 s/step
+Meep progress: 473.68/500.0 = 94.7% done in 1055.6s, 58.7s to go
+on time step 47368 (time=473.68), 0.02001 s/step
+Meep progress: 475.68/500.0 = 95.1% done in 1059.6s, 54.2s to go
+on time step 47568 (time=475.68), 0.0200265 s/step
+Meep progress: 477.9/500.0 = 95.6% done in 1063.6s, 49.2s to go
+on time step 47790 (time=477.9), 0.0180599 s/step
+Meep progress: 480.13/500.0 = 96.0% done in 1067.6s, 44.2s to go
+on time step 48013 (time=480.13), 0.0179903 s/step
+Meep progress: 482.36/500.0 = 96.5% done in 1071.6s, 39.2s to go
+on time step 48236 (time=482.36), 0.0179851 s/step
+Meep progress: 484.61/500.0 = 96.9% done in 1075.6s, 34.2s to go
+on time step 48461 (time=484.61), 0.0177784 s/step
+Meep progress: 486.91/500.0 = 97.4% done in 1079.6s, 29.0s to go
+on time step 48691 (time=486.91), 0.0174567 s/step
+Meep progress: 489.21/500.0 = 97.8% done in 1083.6s, 23.9s to go
+on time step 48921 (time=489.21), 0.0174067 s/step
+Meep progress: 491.52/500.0 = 98.3% done in 1087.6s, 18.8s to go
+on time step 49152 (time=491.52), 0.0173675 s/step
+Meep progress: 493.83/500.0 = 98.8% done in 1091.6s, 13.6s to go
+on time step 49383 (time=493.83), 0.0173537 s/step
+Meep progress: 496.14/500.0 = 99.2% done in 1095.6s, 8.5s to go
+on time step 49614 (time=496.14), 0.0173626 s/step
+Meep progress: 498.45/500.0 = 99.7% done in 1099.7s, 3.4s to go
+on time step 49845 (time=498.45), 0.0173792 s/step
+creating output file "./refl0.001-ez-000500.00.h5"...
+run 0 finished at t = 500.0 (50000 timesteps)
+flux1:, 0.41, -4.3261302282925e-13
+flux1:, 0.415050505050505, -4.46012523572014e-13
+flux1:, 0.42010101010101, -4.73360820427297e-13
+flux1:, 0.425151515151515, -4.96060843798299e-13
+flux1:, 0.43020202020202, -5.04955017810789e-13
+flux1:, 0.435252525252525, -5.22170344555933e-13
+flux1:, 0.44030303030303, -5.57019794299808e-13
+flux1:, 0.445353535353535, -5.83343467305118e-13
+flux1:, 0.45040404040404, -5.94708798971395e-13
+flux1:, 0.455454545454545, -6.18781960902571e-13
+flux1:, 0.46050505050505, -6.62113633225098e-13
+flux1:, 0.465555555555555, -6.92703989791346e-13
+flux1:, 0.47060606060606, -7.08526337678607e-13
+flux1:, 0.475656565656565, -7.43386799971042e-13
+flux1:, 0.48070707070707, -7.96391464831009e-13
+flux1:, 0.485757575757575, -8.26332595669878e-13
+flux1:, 0.49080808080808, -8.24403449630049e-13
+flux1:, 0.495858585858586, -8.13410561444141e-13
+flux1:, 0.500909090909091, -7.39915401345871e-13
+flux1:, 0.505959595959596, -1.9983130602306e-13
+flux1:, 0.511010101010101, 3.05199986593705e-12
+flux1:, 0.516060606060606, 2.02914142248087e-11
+flux1:, 0.521111111111111, 1.00281652017391e-10
+flux1:, 0.526161616161616, 4.37679954176509e-10
+flux1:, 0.531212121212121, 1.76773574313408e-9
+flux1:, 0.536262626262626, 6.74885804125155e-9
+flux1:, 0.541313131313131, 2.45220897386137e-8
+flux1:, 0.546363636363636, 8.48362160163885e-8
+flux1:, 0.551414141414141, 2.7926977449692e-7
+flux1:, 0.556464646464646, 8.75623371272767e-7
+flux1:, 0.561515151515152, 2.61409902599378e-6
+flux1:, 0.566565656565657, 7.42041107699701e-6
+flux1:, 0.571616161616162, 2.00435795719731e-5
+flux1:, 0.576666666666667, 5.15884601706552e-5
+flux1:, 0.581717171717172, 1.26375950881685e-4
+flux1:, 0.586767676767677, 2.94174245300877e-4
+flux1:, 0.591818181818182, 6.50956013486025e-4
+flux1:, 0.596868686868687, 0.0013697203288175
+flux1:, 0.601919191919192, 0.00273829046556843
+flux1:, 0.606969696969697, 0.00519637625754138
+flux1:, 0.612020202020202, 0.00935530682878674
+flux1:, 0.617070707070707, 0.0159924882163666
+flux1:, 0.622121212121213, 0.0260169289362859
+flux1:, 0.627171717171718, 0.0402992367759755
+flux1:, 0.632222222222223, 0.0593053281999558
+flux1:, 0.637272727272728, 0.0827839716055244
+flux1:, 0.642323232323233, 0.109529699131886
+flux1:, 0.647373737373738, 0.137052436531687
+flux1:, 0.652424242424243, 0.161890003310976
+flux1:, 0.657474747474748, 0.181023852777578
+flux1:, 0.662525252525253, 0.193361595938426
+flux1:, 0.667575757575758, 0.199679247406879
+flux1:, 0.672626262626263, 0.200388733824896
+flux1:, 0.677676767676768, 0.193372348270249
+flux1:, 0.682727272727274, 0.175562660498284
+flux1:, 0.687777777777779, 0.147416430797125
+flux1:, 0.692828282828284, 0.114557977704851
+flux1:, 0.697878787878789, 0.0842085311681819
+flux1:, 0.702929292929294, 0.060409636829586
+flux1:, 0.707979797979799, 0.0428449668089901
+flux1:, 0.713030303030304, 0.029432427871392
+flux1:, 0.718080808080809, 0.0189197262788546
+flux1:, 0.723131313131314, 0.011147007157998
+flux1:, 0.728181818181819, 0.00605160501061854
+flux1:, 0.733232323232324, 0.00311579704772189
+flux1:, 0.738282828282829, 0.00157266761173321
+flux1:, 0.743333333333335, 7.8528425651242e-4
+flux1:, 0.74838383838384, 3.79147044071665e-4
+flux1:, 0.753434343434345, 1.71256296789299e-4
+flux1:, 0.75848484848485, 7.10296360546519e-5
+flux1:, 0.763535353535355, 2.71730408385668e-5
+flux1:, 0.76858585858586, 9.81699006876763e-6
+flux1:, 0.773636363636365, 3.44428950777833e-6
+flux1:, 0.77868686868687, 1.18750887423504e-6
+flux1:, 0.783737373737375, 3.97638140738373e-7
+flux1:, 0.78878787878788, 1.2621351257159e-7
+flux1:, 0.793838383838385, 3.72465715390332e-8
+flux1:, 0.79888888888889, 1.01836300738171e-8
+flux1:, 0.803939393939396, 2.59958241487992e-9
+flux1:, 0.808989898989901, 6.26592829449591e-10
+flux1:, 0.814040404040406, 1.40336224268041e-10
+flux1:, 0.819090909090911, 2.65806099413206e-11
+flux1:, 0.824141414141416, 1.64106204721241e-12
+flux1:, 0.829191919191921, -3.00559408504601e-12
+flux1:, 0.834242424242426, -3.60888199525203e-12
+flux1:, 0.839292929292931, -3.50417437427206e-12
+flux1:, 0.844343434343436, -3.33370493585777e-12
+flux1:, 0.849393939393941, -3.16624306166925e-12
+flux1:, 0.854444444444446, -2.96703028110597e-12
+flux1:, 0.859494949494951, -2.74598756478744e-12
+flux1:, 0.864545454545457, -2.5724462073345e-12
+flux1:, 0.869595959595962, -2.44045893427574e-12
+flux1:, 0.874646464646467, -2.29478927965878e-12
+flux1:, 0.879696969696972, -2.14001614824091e-12
+flux1:, 0.884747474747477, -2.02283872289444e-12
+flux1:, 0.889797979797982, -1.9418664753884e-12
+flux1:, 0.894848484848487, -1.83673094254843e-12
+flux1:, 0.899898989898992, -1.72026104507944e-12
+flux1:, 0.904949494949497, -1.64538809040224e-12
+flux1:, 0.910000000000002, -1.58573250690735e-12
+flux1:, 0.41, 9.84802425083108e-15
+flux1:, 0.415050505050505, 1.29005217325407e-14
+flux1:, 0.42010101010101, 3.80397065035914e-15
+flux1:, 0.425151515151515, 2.60145146027645e-15
+flux1:, 0.43020202020202, 1.65166848387803e-14
+flux1:, 0.435252525252525, 2.09816287995875e-14
+flux1:, 0.44030303030303, 7.22703221925608e-15
+flux1:, 0.445353535353535, 1.75428182318141e-15
+flux1:, 0.45040404040404, 1.31717903547219e-14
+flux1:, 0.455454545454545, 1.53122840161076e-14
+flux1:, 0.46050505050505, 3.48509524709898e-15
+flux1:, 0.465555555555555, 6.22071063106616e-15
+flux1:, 0.47060606060606, 2.41556739803008e-14
+flux1:, 0.475656565656565, 2.2615204306658e-14
+flux1:, 0.48070707070707, 2.95475098963247e-15
+flux1:, 0.485757575757575, 9.64480034996951e-15
+flux1:, 0.49080808080808, 5.26928817009515e-14
+flux1:, 0.495858585858586, 1.08574087366999e-13
+flux1:, 0.500909090909091, 2.30683330400499e-13
+flux1:, 0.505959595959596, 8.15473829742536e-13
+flux1:, 0.511010101010101, 4.08952901021686e-12
+flux1:, 0.516060606060606, 2.12140945781967e-11
+flux1:, 0.521111111111111, 1.00926096656308e-10
+flux1:, 0.526161616161616, 4.38063947061246e-10
+flux1:, 0.531212121212121, 1.76850493605924e-9
+flux1:, 0.536262626262626, 6.735946824661e-9
+flux1:, 0.541313131313131, 2.44003234938621e-8
+flux1:, 0.546363636363636, 8.42253923858704e-8
+flux1:, 0.551414141414141, 2.77482267266737e-7
+flux1:, 0.556464646464646, 8.73984944219773e-7
+flux1:, 0.561515151515152, 2.62336634444184e-6
+flux1:, 0.566565656565657, 7.4836935836011e-6
+flux1:, 0.571616161616162, 2.02704651121708e-5
+flux1:, 0.576666666666667, 5.20827228234704e-5
+flux1:, 0.581717171717172, 1.27074809898353e-4
+flux1:, 0.586767676767677, 2.94469279605599e-4
+flux1:, 0.591818181818182, 6.48357531501763e-4
+flux1:, 0.596868686868687, 0.00135981244260113
+flux1:, 0.601919191919192, 0.00271517361513856
+flux1:, 0.606969696969697, 0.00514818419665991
+flux1:, 0.612020202020202, 0.00926258651833275
+flux1:, 0.617070707070707, 0.0158331895571116
+flux1:, 0.622121212121213, 0.0257887963139015
+flux1:, 0.627171717171718, 0.0400339330108352
+flux1:, 0.632222222222223, 0.0590740115008416
+flux1:, 0.637272727272728, 0.082730988136139
+flux1:, 0.642323232323233, 0.109761021554104
+flux1:, 0.647373737373738, 0.137561763298539
+flux1:, 0.652424242424243, 0.162576480147494
+flux1:, 0.657474747474748, 0.181688961558364
+flux1:, 0.662525252525253, 0.193964073049816
+flux1:, 0.667575757575758, 0.200339683521989
+flux1:, 0.672626262626263, 0.201159464030512
+flux1:, 0.677676767676768, 0.194184641017382
+flux1:, 0.682727272727274, 0.176226379722616
+flux1:, 0.687777777777779, 0.147773158959352
+flux1:, 0.692828282828284, 0.114632629642033
+flux1:, 0.697878787878789, 0.0841324639888775
+flux1:, 0.702929292929294, 0.0602896414002273
+flux1:, 0.707979797979799, 0.0427403023495205
+flux1:, 0.713030303030304, 0.0293797158821668
+flux1:, 0.718080808080809, 0.0189236218543629
+flux1:, 0.723131313131314, 0.0111801518844424
+flux1:, 0.728181818181819, 0.00608718311028537
+flux1:, 0.733232323232324, 0.00314024340297513
+flux1:, 0.738282828282829, 0.00158508937660137
+flux1:, 0.743333333333335, 7.9033993334704e-4
+flux1:, 0.74838383838384, 3.80736906743421e-4
+flux1:, 0.753434343434345, 1.71591689210405e-4
+flux1:, 0.75848484848485, 7.10526354804963e-5
+flux1:, 0.763535353535355, 2.71520213578965e-5
+flux1:, 0.76858585858586, 9.79620203828632e-6
+flux1:, 0.773636363636365, 3.43008375731367e-6
+flux1:, 0.77868686868687, 1.18186891761404e-6
+flux1:, 0.783737373737375, 3.96143717655609e-7
+flux1:, 0.78878787878788, 1.25902934734763e-7
+flux1:, 0.793838383838385, 3.72122058049195e-8
+flux1:, 0.79888888888889, 1.01786797950728e-8
+flux1:, 0.803939393939396, 2.59988886058879e-9
+flux1:, 0.808989898989901, 6.29131543358256e-10
+flux1:, 0.814040404040406, 1.44977913779377e-10
+flux1:, 0.819090909090911, 3.13143905837427e-11
+flux1:, 0.824141414141416, 6.25586992841089e-12
+flux1:, 0.829191919191921, 1.26989691463528e-12
+flux1:, 0.834242424242426, 3.6113939227309e-13
+flux1:, 0.839292929292931, 1.69842058340487e-13
+flux1:, 0.844343434343436, 8.10141595189806e-14
+flux1:, 0.849393939393941, 1.68104031211484e-14
+flux1:, 0.854444444444446, 9.78920087940446e-15
+flux1:, 0.859494949494951, 3.96354336729221e-14
+flux1:, 0.864545454545457, 3.96129487594053e-14
+flux1:, 0.869595959595962, 8.64582412802931e-15
+flux1:, 0.874646464646467, 6.42571235886324e-15
+flux1:, 0.879696969696972, 3.24582367160874e-14
+flux1:, 0.884747474747477, 3.020319436609e-14
+flux1:, 0.889797979797982, 7.57315007490537e-15
+flux1:, 0.894848484848487, 1.50301651353884e-14
+flux1:, 0.899898989898992, 3.66683807444599e-14
+flux1:, 0.904949494949497, 2.67387419949671e-14
+flux1:, 0.910000000000002, 3.27839120930801e-15
+
+Elapsed run time = 1112.66 s
+
+Some deprecated features have been used.  Set the environment
+variable GUILE_WARN_DEPRECATED to "detailed" and rerun the
+program to get more information.  Set it to "no" to suppress
+this message.
