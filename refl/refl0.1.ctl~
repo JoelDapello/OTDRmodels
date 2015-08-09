@@ -25,24 +25,21 @@
                 ;; nanosheet capacitor
                 (make block (center 10 0.275 ) (size 80 0.05 infinity)
                       (material (make dielectric (epsilon 4))))
-                ;; waveguide 
-                (make block (center -15 0.245 ) (size 70 0.01 infinity)
-                      (material (make dielectric (epsilon 11.68))))
-                ;; waveguide 
-                (make block (center 30 0.245 ) (size 20 0.01 infinity)
-                      (material (make dielectric (epsilon 11.68))))
-                ;; waveguide 
-                (make block (center 45 0.245 ) (size 10 0.01 infinity)
+                ;; waveguide
+                (make block (center -15 0 ) (size 70 0.5 infinity)
                       (material (make dielectric (epsilon 11.68))))
                 ;; waveguide
-                (make block (center 0 -0.005 ) (size infinity 0.49 infinity)
+                (make block (center 30 0 ) (size 20 0.5 infinity)
+                      (material (make dielectric (epsilon 5.84))))
+                ;; waveguide
+                (make block (center 45 0 ) (size 10 0.5 infinity)
                       (material (make dielectric (epsilon 11.68))))
                 ;; weak inner conductor
                 (make block (center 10 -1 ) (size 80 1.5 infinity)
                       (material (make dielectric (epsilon 9.0))))
                 ;; platinum
                 (make block (center 10 -2.25 ) (size 80 1 infinity)
-                      (material myPt))
+                      (material (make dielectric (epsilon 9.0))))
                 ))
 
 ;; sources
@@ -60,18 +57,18 @@
             (make flux-region 
               (center 0 0) (size 0 1))))
 
-(define x2 ; reflected flux                                                   
+(define x2 ; transmitted flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center 0 0) (size 0 1))))
+              (center 30 0) (size 0 1))))
 
 ;; output 
 (run-until 500
            (at-beginning output-epsilon)
-           (at-every 100 (output-png Ez "-Zc bluered"))
-           )
+           (at-every 100 (output-png Ez "-Zc bluered")))
 
 (display-fluxes x1)
+(display-fluxes x2)
 
 ;; y range:1.75 through -1.75 y total 3.5
 

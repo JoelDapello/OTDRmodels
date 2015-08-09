@@ -1,0 +1,11 @@
+#!/usr/bin/python2
+import sys
+import numpy as np
+from matplotlib import pyplot as plt
+
+data1 = np.genfromtxt(sys.argv, delimiter=',')
+data2 = np.genfromtxt(sys.argv, delimiter=',')
+
+plt.plot(data1-data2)
+print data1
+plt.show()
