@@ -13,27 +13,45 @@
                     )))
 
 ;; set grid (2d)
-(define-param sx 300) ; size of cell in um
+(define-param sx 100) ; size of cell in um
 (define-param sy 6) ; size of cell in Y direction in um
 (set! geometry-lattice (make lattice (size sx sy no-size)))
 
 ;; make objects
 (set! geometry (list
                 ;; weak outter
-                (make block (center 0 1.775 ) (size 250 3 infinity)
+                (make block (center 0 1.775 ) (size infinity 3 infinity)
                       (material (make dielectric (epsilon 9))))
                 ;; nanosheet capacitor
-                (make block (center 0 0.275 ) (size 250 0.05 infinity)
+                (make block (center 0 0.275 ) (size infinity 0.05 infinity)
                       (material (make dielectric (epsilon 4))))
                 ;; waveguide 
-                (make block (center 0 0 ) (size infinity 0.5 infinity)
+                (make block (center -15 0.245 ) (size 70 0.01 infinity)
+                      (material (make dielectric (epsilon 11.68))))
+                ;; waveguide 
+                (make block (center 30 0.245 ) (size 20 0.01 infinity)
+                      (material (make dielectric (epsilon 11.00))))
+                ;; waveguide 
+                (make block (center 45 0.245 ) (size 10 0.01 infinity)
+                      (material (make dielectric (epsilon 11.68))))
+                ;; waveguide
+                (make block (center 0 0 ) (size infinity 0.48 infinity)
+                      (material (make dielectric (epsilon 11.68))))
+                ;; waveguide 
+                (make block (center -15 -0.245 ) (size 70 0.01 infinity)
+                      (material (make dielectric (epsilon 11.68))))
+                ;; waveguide 
+                (make block (center 30 -0.245 ) (size 20 0.01 infinity)
+                      (material (make dielectric (epsilon 11.00))))
+                ;; waveguide 
+                (make block (center 45 -0.245 ) (size 10 0.01 infinity)
                       (material (make dielectric (epsilon 11.68))))
                 ;; weak inner conductor
-                (make block (center 0 -1 ) (size 250 1.5 infinity)
+                (make block (center 0 -1 ) (size infinity 1.5 infinity)
                       (material (make dielectric (epsilon 9.0))))
                 ;; platinum
-                (make block (center 0 -2.25 ) (size 250 1 infinity)
-                      (material myPt))
+                (make block (center 0 -2.25 ) (size infinity 1 infinity)
+                      (material (make dielectric (epsilon 9.0))))
                 ))
 
 ;; sources
@@ -44,22 +62,22 @@
                  (center (* (- (/ sx 2) 1) -1) 0 ) (size 0 0.5))))
 
 (set! pml-layers (list (make pml (thickness 0.1))))
-(set! resolution 75)
+(set! resolution 100)
 
 (define x1 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center -50 0) (size 0 1))))
+              (center 0 0) (size 0 1))))
 
-(define x2 ; reflected flux                                                   
+(define x2 ; transmitted flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center 50 0) (size 0 1))))
+              (center 30 0) (size 0 1))))
 
 ;; output 
-(run-until 1500
+(run-until 500
            (at-beginning output-epsilon)
-           )
+           (at-every 30 (output-png Ez "-Zc bluered")))
 
 (display-fluxes x1)
 (display-fluxes x2)
