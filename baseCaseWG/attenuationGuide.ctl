@@ -44,7 +44,7 @@
                  (center (* (- (/ sx 2) 1) -1) 0 ) (size 0 0.5))))
 
 (set! pml-layers (list (make pml (thickness 0.1))))
-(set! resolution 50)
+(set! resolution 75)
 
 (define x1 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
@@ -59,7 +59,6 @@
 ;; output 
 (run-until 1500
            (at-beginning output-epsilon)
-           (at-every 100 (output-png Ez "-Zc bluered"))
            )
 
 (display-fluxes x1)
