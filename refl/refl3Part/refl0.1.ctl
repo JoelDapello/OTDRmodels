@@ -67,12 +67,12 @@
 (define x1 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center 0 0) (size 0 1))))
+              (center 0 0) (size 0 0.5))))
 
 (define x2 ; transmitted flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center 30 0) (size 0 1))))
+              (center 30 0) (size 0 0.5))))
 
 ;; output 
 (run-until 500
