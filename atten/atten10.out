@@ -1,0 +1,57 @@
+Using MPI version 3.0, 1 processes
+-----------
+Initializing structure...
+Working in 2D dimensions.
+Computational cell is 160 x 6 x 0 with resolution 200
+     block, center = (0,1.775,0)
+          size (1e+20,3,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     block, center = (0,0.275,0)
+          size (1e+20,0.05,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (4,4,4)
+     block, center = (0,0,0)
+          size (1e+20,0.5,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (11.68,11.68,11.68)
+     block, center = (0,-0.255,0)
+          size (1e+20,0.01,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (9,9,9)
+     block, center = (0,-0.76,0)
+          size (1e+20,1,1e+20)
+          axes (1,0,0), (0,1,0), (0,0,1)
+          dielectric constant epsilon diagonal = (1,1,1)
+subpixel-averaging is 11.0474% done, 32.2087 s remaining
+subpixel-averaging is 22.1082% done, 14.0946 s remaining
+subpixel-averaging is 33.1448% done, 8.06941 s remaining
+subpixel-averaging is 44.2111% done, 5.04844 s remaining
+subpixel-averaging is 55.3098% done, 3.2325 s remaining
+subpixel-averaging is 66.3409% done, 2.02993 s remaining
+subpixel-averaging is 77.4504% done, 1.16462 s remaining
+subpixel-averaging is 88.5113% done, 0.51921 s remaining
+subpixel-averaging is 99.5937% done, 0.0163203 s remaining
+subpixel-averaging is 11.0771% done, 32.1114 s remaining
+subpixel-averaging is 21.8734% done, 14.2891 s remaining
+subpixel-averaging is 32.945% done, 8.14277 s remaining
+subpixel-averaging is 43.8979% done, 5.11224 s remaining
+subpixel-averaging is 54.9075% done, 3.28538 s remaining
+subpixel-averaging is 65.9873% done, 2.06218 s remaining
+subpixel-averaging is 77.067% done, 1.19056 s remaining
+subpixel-averaging is 88.1009% done, 0.540372 s remaining
+subpixel-averaging is 99.178% done, 0.0331537 s remaining
+subpixel-averaging is 11.0204% done, 32.2992 s remaining
+subpixel-averaging is 22.065% done, 14.1291 s remaining
+subpixel-averaging is 32.8613% done, 8.17236 s remaining
+subpixel-averaging is 43.8844% done, 5.11533 s remaining
+subpixel-averaging is 54.8805% done, 3.28909 s remaining
+subpixel-averaging is 65.8469% done, 2.07472 s remaining
+subpixel-averaging is 76.7566% done, 1.21139 s remaining
+subpixel-averaging is 87.6797% done, 0.562089 s remaining
+subpixel-averaging is 98.5705% done, 0.0580197 s remaining
+time for set_epsilon = 113.087 s
+lorentzian susceptibility: frequency=7.4598, gamma=6.8694
+lorentzian susceptibility: frequency=2.5334, gamma=2.9584
+lorentzian susceptibility: frequency=1.0598, gamma=1.4824
+lorentzian susceptibility: frequency=0.62911, gamma=0.41699

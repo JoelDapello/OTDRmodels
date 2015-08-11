@@ -1,0 +1,11 @@
+import numpy as np
+from matplotlib import pyplot as plt
+
+inc = np.genfromtxt("inc.txt", delimiter=',')
+R1 = np.genfromtxt("reflPart1T2.txt", delimiter=',')
+T1 = np.genfromtxt("reflPart1R2.txt", delimiter=',')
+
+plt.plot((inc[30:70] - R1[30:70])/inc[30:70]) # plot reflection %
+plt.plot(T1[30:70]/inc[30:70]) # plot transmission %
+
+plt.show()
