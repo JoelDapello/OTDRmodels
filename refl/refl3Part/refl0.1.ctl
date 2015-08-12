@@ -26,25 +26,25 @@
                 (make block (center 0 0.275 ) (size infinity 0.05 infinity)
                       (material (make dielectric (epsilon 4))))
                 ;; waveguide 
-                (make block (center -15 0.245 ) (size 70 0.01 infinity)
+                (make block (center -15 0.24 ) (size 70 0.02 infinity)
                       (material (make dielectric (epsilon 11.68))))
                 ;; waveguide 
-                (make block (center 30 0.245 ) (size 20 0.01 infinity)
+                (make block (center 30 0.24 ) (size 20 0.02 infinity)
                       (material (make dielectric (epsilon 11.00))))
                 ;; waveguide 
-                (make block (center 45 0.245 ) (size 10 0.01 infinity)
+                (make block (center 45 0.24 ) (size 10 0.02 infinity)
                       (material (make dielectric (epsilon 11.68))))
                 ;; waveguide
-                (make block (center 0 0 ) (size infinity 0.48 infinity)
+                (make block (center 0 0 ) (size infinity 0.46 infinity)
                       (material (make dielectric (epsilon 11.68))))
                 ;; waveguide 
-                (make block (center -15 -0.245 ) (size 70 0.01 infinity)
+                (make block (center -15 -0.24 ) (size 70 0.02 infinity)
                       (material (make dielectric (epsilon 11.68))))
                 ;; waveguide 
-                (make block (center 30 -0.245 ) (size 20 0.01 infinity)
+                (make block (center 30 -0.24 ) (size 20 0.02 infinity)
                       (material (make dielectric (epsilon 11.00))))
                 ;; waveguide 
-                (make block (center 45 -0.245 ) (size 10 0.01 infinity)
+                (make block (center 45 -0.24 ) (size 10 0.02 infinity)
                       (material (make dielectric (epsilon 11.68))))
                 ;; weak inner conductor
                 (make block (center 0 -1 ) (size infinity 1.5 infinity)
@@ -67,17 +67,19 @@
 (define x1 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center 0 0) (size 0 1))))
+              (center 0 0) (size 0 0.5))))
 
 (define x2 ; transmitted flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center 30 0) (size 0 1))))
+              (center 30 0) (size 0 0.5))))
 
 ;; output 
 (run-until 500
            (at-beginning output-epsilon)
-           (at-every 30 (output-png Ez "-Zc bluered")))
+           (to-appended "ez" (at-every 10 output-efield-z))
+           (at-every 30 (output-png Ez "-Zc bluered"))
+           )
 
 (display-fluxes x1)
 (display-fluxes x2)
