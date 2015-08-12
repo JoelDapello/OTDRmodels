@@ -13,7 +13,7 @@
                     )))
 
 ;; set grid (2d)
-(define-param sx 160) ; size of cell in um
+(define-param sx 1500) ; size of cell in um
 (define-param sy 6) ; size of cell in Y direction in um
 (set! geometry-lattice (make lattice (size sx sy no-size)))
 
@@ -47,30 +47,46 @@
 (set! pml-layers (list (make pml (thickness 0.1))))
 (set! resolution 50)
 
-(define x1 ; reflected flux                                                   
+(define x-500 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center -30 0) (size 0 1))))
+              (center -500 0) (size 0 1))))
 
-(define x2 ; reflected flux                                                   
+(define x-200 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center 70 0) (size 0 1))))
+              (center -200 0) (size 0 1))))
+
+(define x-50 ; reflected flux                                                   
+  (add-flux 0.66 0.5 100
+            (make flux-region 
+              (center -50 0) (size 0 1))))
+
+(define x50 ; reflected flux                                                   
+  (add-flux 0.66 0.5 100
+            (make flux-region 
+              (center 50 0) (size 0 1))))
+
+(define x200 ; reflected flux                                                   
+  (add-flux 0.66 0.5 100
+            (make flux-region 
+              (center 200 0) (size 0 1))))
+
+(define x500 ; reflected flux                                                   
+  (add-flux 0.66 0.5 100
+            (make flux-region 
+              (center 500 0) (size 0 1))))
 
 ;; output 
-(run-until 800
+(run-until 5625
            (at-beginning output-epsilon)
-	   (to-appended "ez" (at-every 10 output-efield-z))
+	   (to-appended "ez" (at-every 20 output-efield-z))
            (at-every 20 (output-png Ez "-Zc bluered"))
            )
 
-(display-fluxes x1)
-(display-fluxes x2)
-
-;; y range:1.75 through -1.75 y total 3.5
-
-;; 1.5,
-;; 1.245,
-;; 0.995,
-;; -0.25,
-;; -1.5 
+(display-fluxes x-500)
+(display-fluxes x-200)
+(display-fluxes x-50)
+(display-fluxes x50)
+(display-fluxes x200)
+(display-fluxes x500)
