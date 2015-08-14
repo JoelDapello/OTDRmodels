@@ -60,6 +60,7 @@
 ;; output 
 (run-until 800
            (at-beginning output-epsilon)
+	   (to-appended "ez" (at-every 10 output-efield-z))
            (at-every 20 (output-png Ez "-Zc bluered"))
            )
 
