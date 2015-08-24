@@ -13,8 +13,8 @@
                     )))
 
 ;; set grid (2d)
-(define-param sx 1500) ; size of cell in um
-(define-param sy 6) ; size of cell in Y direction in um
+(define-param sx 700) ; size of cell in um
+(define-param sy 7) ; size of cell in Y direction in um
 (set! geometry-lattice (make lattice (size sx sy no-size)))
 
 ;; make objects
@@ -44,18 +44,18 @@
                  (component Ez)
                  (center (* (- (/ sx 2) 1) -1) 0 ) (size 0 0.5))))
 
-(set! pml-layers (list (make pml (thickness 0.1))))
+(set! pml-layers (list (make pml (thickness 1.0))))
 (set! resolution 50)
 
-(define x-500 ; reflected flux                                                   
+(define x-300 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center -500 0) (size 0 1))))
+              (center -300 0) (size 0 1))))
 
-(define x-200 ; reflected flux                                                   
+(define x-100 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center -200 0) (size 0 1))))
+              (center -100 0) (size 0 1))))
 
 (define x-50 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
@@ -67,26 +67,26 @@
             (make flux-region 
               (center 50 0) (size 0 1))))
 
-(define x200 ; reflected flux                                                   
+(define x100 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center 200 0) (size 0 1))))
+              (center 100 0) (size 0 1))))
 
-(define x500 ; reflected flux                                                   
+(define x300 ; reflected flux                                                   
   (add-flux 0.66 0.5 100
             (make flux-region 
-              (center 500 0) (size 0 1))))
+              (center 300 0) (size 0 1))))
 
 ;; output 
-(run-until 5625
+(run-until 3225
            (at-beginning output-epsilon)
 	   (to-appended "ez" (at-every 20 output-efield-z))
            (at-every 20 (output-png Ez "-Zc bluered"))
            )
 
-(display-fluxes x-500)
-(display-fluxes x-200)
+(display-fluxes x-300)
+(display-fluxes x-100)
 (display-fluxes x-50)
 (display-fluxes x50)
-(display-fluxes x200)
-(display-fluxes x500)
+(display-fluxes x100)
+(display-fluxes x300)
